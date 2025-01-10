@@ -1,19 +1,12 @@
-name	"galerifotopacar"
-version	"1.0.0"
-description	"A simple photo gallery website showcasing my girlfriend's photos."
-main	"script.js"
-scripts	
-test	'echo "Error: no test specified" && exit 1'
-repository	
-type	"git"
-url	"git+https://github.com/Ramagaps/photo-gallery.git"
-keywords	
-0	"photo"
-1	"gallery"
-2	"website"
-3	"girlfriend"
-author	"ramagapis"
-license	"ISC"
-bugs	
-url	"https://github.com/Ramagaps/photo-gallery/issues"
-homepage	"https://github.com/Ramagaps/photo-gallery#readme"
+{
+  "name": "galerifotopacar",
+  "version": "1.0.0",
+  "description": "A simple photo gallery website showcasing my girlfriend's photos.",
+  "main": "index.html",
+  "scripts": {
+    "start": "echo 'No server needed, this is a static website.'"
+  },
+  "keywords": ["photo", "gallery", "website", "girlfriend"],
+  "author": "Your Name",
+  "license": "MIT"
+}
