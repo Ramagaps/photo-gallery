@@ -1,13 +1,14 @@
- {
+{
   "name": "galerifotopacar",
   "version": "1.0.0",
   "description": "A simple photo gallery website showcasing my girlfriend's photos.",
   "main": "index.html",
   "scripts": {
     "start": "echo 'No server needed, this is a static website.'",
-    "build": "mkdir -p dist && cp -r * dist/"
+    "build": "mkdir -p dist && find . -path ./dist -prune -o -exec cp -r {} dist/ \\;"
   },
   "keywords": ["photo", "gallery", "website", "girlfriend"],
   "author": "Your Name",
   "license": "MIT"
 }
+
