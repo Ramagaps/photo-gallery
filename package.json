@@ -5,7 +5,7 @@
   "main": "index.html",
   "scripts": {
     "start": "echo 'No server needed, this is a static website.'",
-    "build": "echo 'No build process needed for static site.'"
+    "build": "mkdir -p dist && cp -r * dist/"
   },
   "keywords": ["photo", "gallery", "website", "girlfriend"],
   "author": "Your Name",
